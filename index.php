@@ -8,7 +8,7 @@
       <hr>
 
       <div class="jumbotron">
-        <h1>Todo List tutorial</h1>
+        <h1>Todo List</h1>
 		
 		<?php $message = $_GET['message'];
 		
