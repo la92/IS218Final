@@ -7,12 +7,15 @@ CREATE TABLE `users` (
   `gender` varchar(10) DEFAULT NULL,
   `DOB` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-);
+)Egine = InnoDB;
 
 CREATE TABLE `todolist` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) DEFAULT NULL,
   `check_value` varchar(50) DEFAULT 'false',
   `task` longtext,
+  `start` DATE,
+  `due` DATE,
+  `description` TEXT,
   PRIMARY KEY (`id`)
-);
+)Engine=InnoDB;
